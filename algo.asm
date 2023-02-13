@@ -16,7 +16,7 @@ OneByte     db 01h,0
 LicType     db "10000",0
 StartKey    db "dqma",0
 EndKey      db "amqd",0
-CustomStr   db "QuickMafz",0 
+CustomStr   db "QuickMafz",0 ; 2 + 2 is 4 minus 1 that'z 3 QuickMafz !
 NoName      db "insert ur name.",0
 TooLong     db "name too long.",0
 FinalBuffer db 256 dup(0)
